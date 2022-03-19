@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  rabbitMQ:
+    hostname: rabbitMQ
+    image: rabbitmq:3.9.3-management
+    ports:
+      - 15672:15672
+      - 5672:5672
